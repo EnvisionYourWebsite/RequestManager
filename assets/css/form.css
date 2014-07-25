@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
+
+.header {
+	height: 80px; 
+	background-color: #333333;
+}
+.logo {
+	color:white;
+}
+
+
+html {
+	height: 100%;
+
+}
+
+a, 
+a:focus,
+input,
+input:focus,
+input:active {
+	outline: none;
+}
+
+div.message {
+	text-align: center;
+	width: 350px; 
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 20px; 
+	margin-bottom: 25px;
+}
+
+div.message .close {
+	right: -8px;
+	top:-6px;
+}
+
+div.message p {
+	font-size: 12px;
+
+}
+
+
+.blue { color:#447fc8; }
+.btn-black {
+	-webkit-box-shadow: none;
+	-moz-box-shadow:none;
+	-box-shadow: none; 
+	padding: 5px 20px; 
+	background-color: #222222; 
+	background-image: none;
+	color: #ecf8fb;
+	text-shadow:none;
+}
+
+.btn-back:hover {
+	background: #333333; 
+	color:white;
+}
+
+#login-wrapper {
+	position: relative;
+	display: block; 
+	margin: 0 auto;
+	padding: 25px; 
+	width: 420px; 
+	height: auto; 
+	margin: 0 auto; 
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+
+
+
+#register-wrapper {
+  position: relative;
+  display: block; 
+  padding: 15px 25px 22px;
+  height: auto; 
+  width: 380px;
+  text-align: center;
+  margin: 0 auto; 
+  margin-top: 5%;
+
+}
+
+.register-form {
+	margin: 0 auto; 
+	width:350px;
+}
+
+.register-form .control-inline {
+	display: inline-block;
+}
+
+#login-wrapper form {
+	background: #fcfdff;
+	border:1px solid #cfd7e6;
+	padding:15px;
+	border-radius: 5px;
+	box-shadow: 8px 8px 12px #cfd7e6;
+}
+
+
+.login-form input,
+.register-form input {
+	width:318px;
+}
+
+.register-form .control-group {
+	margin-bottom: 0;
+}
+
+.register-form .checkbox.inline input {
+	margin-right: 10px;
+}
+
+.register-form .main {
+	overflow-y: auto;
+	height: auto;
+}
+
+.register-form .btn {
+	padding: 7px 25px; 
+	background-image: none;
+	box-shadow: none;
+}
+
+.register-info-wraper {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.register-info {
+  position: relative;
+  padding: 25px;
+}
+
+.register-info ul {
+  margin-right: 25px;
+}
+
+.register-info ul li {
+   margin-bottom: 25px;
+}
+
+.register-form legend,
+.login-form legend {
+	margin-top: 5px;
+	margin-bottom: 30px; 
+	padding-bottom: 25px; 
+}
+
+.register-form .main,
+.login-form .main {
+	padding-bottom:  30px; 
+	border-bottom: 1px solid #eeeeee; 
+
+}
+
+.register-form input,
+.login-form .main input {
+	height: auto;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #ddd;
+} 
+
+.register-form .footer,
+.login-form .footer {
+	margin-top: 20px; 
+}
+
+.login-form .footer .checkbox.inline {
+	display: inline;
+}
+
+
+.register-form .footer input[type="checkbox"],
+.login-form .footer .checkbox.inline input[type="checkbox"] {
+	float:none;
+	margin-top: -4px;
+	width: auto;
+	margin-right: 5px;
+}
+
+.login-form .footer .btn {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none; 
+	margin-left: 15px; 
+	padding: 4px 20px;
+	background-image: none;
+}
+
+footer.white {
+	padding-top:  20px; 
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.navbar {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 113px; 
+	font-weight: 800; 
+	letter-spacing: 1px; 
+	text-transform: uppercase;
+}
+
+
+.register-form legend,
+.login-form legend {
+	font-family: 'Lato',Helvetica, sans-serif; 
+	font-size: 50px; 
+	font-weight: 300; 
+	color: #333333;
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-align: center;
+}	
+
+.register-form label,
+.login-form label {
+	font-family: 'Lato', Helvetica, sans-serif; 
+	font-size: 20px; 
+	color: #333333;
+	font-weight: 300;
+}
+
+.footer.navbar-fixed-bottom {
+	font-size: 16px; 
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif; 
+	line-height: 18px; 
+	font-weight: 400;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+}
+
+.footer .accept label {
+	font-size: 15px;
+}
+
+.footer .accept {
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.login-form .field label,
+.register-form .field label {
+	display: none;
+}
+
+.container-narrow {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.container-narrow {
+	margin-top: 5%;
+}
+
+
